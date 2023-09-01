@@ -1,0 +1,11 @@
+user_input = input('Do you like pizza (yes/no): ')
+
+yes_choices = ['yes', 'y']
+no_choices = ['no', 'n']
+
+if user_input.lower() in yes_choices:
+    print('user typed yes')
+elif user_input.lower() in no_choices:
+    print('user typed no')
+else:
+    print('Type yes or no')
